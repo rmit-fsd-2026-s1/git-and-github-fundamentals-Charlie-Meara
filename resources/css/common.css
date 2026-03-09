@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background: #222;
 }
 
 html, body {
@@ -102,8 +103,33 @@ html, body {
 }
 
 .posts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 2%;
     margin-left: 25%;
-    height: 2000px;
+    height: 2400px;
     width: 50%;
-    background:green
+}
+
+.posts div {
+    width: 80%;
+    background: #444;
+}
+
+.posts div h2 {
+    background: none;
+    margin-top: 3%;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: xx-large;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+.posts div p {
+    margin: 10%;
+    background: none;
+    font-size: x-large;
 }
