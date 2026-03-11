@@ -43,13 +43,13 @@
                 </div>
             </div>
             <div class="form">
-                <form>
+                <form name="sign-up-form" onsubmit="validateSignUp()" method="post">
                     <label for="email">Email Address</label><br>
-                    <input type="text" id="email" name="email"><br>
+                    <input type="text" id="email" name="email" required><br>
                     <label for="pass">Password</label><br>
-                    <input type="text" id="pass" name="pass"><br>
-                    <label for="pass">Re-enter Password</label><br>
-                    <input type="text" id="pass" name="pass"><br>
+                    <input type="password" id="pass" name="pass" required><br>
+                    <label for="pass2">Re-enter Password</label><br>
+                    <input type="password" id="pass2" name="pass2" required><br>
                     <input type="submit" value="Sign Up!">
                 </form>
             </div>
