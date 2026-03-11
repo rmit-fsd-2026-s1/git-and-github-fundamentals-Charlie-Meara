@@ -3,11 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greggit Home</title>
+    <title>Greggit SignUp</title>
     <link rel='stylesheet' type="text/css" href='/resources/css/common.css' />
 </head>
 
 <body>
-
-    
+    <!-- Container for whole page -->
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img class="logo" src="/resources/images/greggit.png" alt="Greggit Home">
+            <div class="search-bar">
+                <p style="background-color: #292929; display: inline;">Greg Search</p>
+            </div>
+            <div class="sign-up">
+                <button onclick="signUp()" type="button">Sign Up</button>
+            </div>
+        </div>
+        <!-- Main body of site -->
+        <div class="main">
+            <div class="sidebar">
+                <div class="sidebar-buttons">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html">Popular</a></li>
+                        <li><a href="index.html">Greg</a></li>
+                    </ul>
+                </div>
+                <div class="sidebar-buttons">
+                    <h2 style="color:grey; margin-left:20px;">Recent:</h2>
+                    <ul>
+                        <li><a href="index.html">G/Greg</a></li>
+                        <li><a href="index.html">G/Gereg</a></li>
+                        <li><a href="index.html">G/Geerg</a></li>
+                        <li><a href="index.html">G/Greer</a></li>
+                        <li><a href="index.html">G/Gorg</a></li>
+                        <li><a href="index.html">G/Grag</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="form">
+                <form>
+                    <label for="email">Email Address</label><br>
+                    <input type="text" id="email" name="email"><br>
+                    <label for="pass">Password</label><br>
+                    <input type="text" id="pass" name="pass"><br>
+                    <label for="pass">Re-enter Password</label><br>
+                    <input type="text" id="pass" name="pass"><br>
+                    <input type="submit" value="Sign Up!">
+                </form>
+            </div>
+        </div>
+    </div>
 </body>

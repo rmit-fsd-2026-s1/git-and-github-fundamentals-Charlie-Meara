@@ -113,6 +113,39 @@ html, body {
     width: 50%;
 }
 
+.form {
+    background: #777;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 2%;
+    margin-left: 25%;
+    height: 400px;
+    width: 50%;
+}
+
+.form form {
+    background: #777;
+}
+
+.form label {
+    background: #444
+}
+
+.form input[type="text"] {
+    background: #FFF;
+    width: 100%;
+    height: 15%;
+}
+
+.form input[type="submit"]{
+    margin-top: 5%;
+    width: 60%;
+    height: 20%;
+}
+
 .posts div {
     width: 80%;
     background: #444;

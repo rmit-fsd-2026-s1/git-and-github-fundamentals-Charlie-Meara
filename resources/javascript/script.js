@@ -1,4 +1,11 @@
 function signUp() {
-    alert("baba booey");
-    window.open("C:/Users/charl/FSD/git-and-github-fundamentals-Charlie-Meara/html/signup.html");
+    window.open("/html/signup.html");
+}
+
+function home() {
+    window.open("/html/home.html")
+}
+
+function validateSignUp(){
+    
 }
